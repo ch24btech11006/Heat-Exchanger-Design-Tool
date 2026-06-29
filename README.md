@@ -24,19 +24,32 @@ A Python-based tool developed to perform thermal analysis of a double-pipe heat 
 - Energy Balance
 
 ## Project Structure
+## Repository Structure
+
+```text
 Heat-Exchanger-Design-Tool/
 │
 ├── Heat_Exchanger_Tool.py
 ├── Heat_Exchanger_Report.pdf
 ├── README.md
 └── plots/
+    ├── Area_vs_U.png
+    ├── Area_vs_hot_flow_rate.png
+    ├── Area_vs_cold_flow_rate.png
+    ├── Effectiveness_vs_U.png
+    ├── Heat_Duty_vs_hot_flow_rate.png
+    └── parallel_counter_vs_NTU.png
+```
 
-![Area vs U](plots/Area_vs_U.png)
+## Example plots
+<p align="center">
+  <img src="plots/Area_vs_U.png" width="45%">
+  <img src="plots/parallel_counter_vs_NTU.png" width="45%">
+</p>
 
-![Effectiveness Comparison](plots/parallel_counter_vs_NTU.png)
 
 
 ## Technologies Used
-- Python 3
-- Matplotlib
-- Math module
+- **Python 3**
+- **Matplotlib**
+- **Math module**
