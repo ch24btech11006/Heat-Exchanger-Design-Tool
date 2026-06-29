@@ -31,11 +31,10 @@ Heat-Exchanger-Design-Tool/
 ├── README.md
 └── plots/
 
-![Area vs U](plots/area_vs_u.png)
+![Area vs U](plots/Area_vs_U.png)
 
-![Effectiveness Comparison](plots/parallel_vs_counterflow.png)
+![Effectiveness Comparison](plots/parallel_counter_vs_NTU.png)
 
-![Heat Duty vs Flow Rate](plots/heat_duty_vs_hot_flow_rate.png)
 
 ## Technologies Used
 - Python 3
